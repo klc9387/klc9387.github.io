@@ -1,9 +1,33 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  background: url(linedpaper.png) repeat;
+  background: url(dice.png) repeat;
 }
 #wrapper {
   width: 960px;
   margin: 20px auto;
+}
+/*short cut for comments is ctrl or commend slash*/
+h1{
+	color: red; 
+}
+h4{
+	color: red;
+}
+#summary {
+	color: blue
+}
+/*class with .*/
+.unicorn {
+	color: blue; font-style: oblique; font-family: monospace;
+}
+#experience{
+	big
+}
+#bike {
+	width: 250px; height: 200px; border: 25px solid purple; 
+}
+/*class can be named anything*/
+.test{
+	color: green; font-style: italic;
 }
