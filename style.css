@@ -1,19 +1,17 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  background: url(dice.png) repeat;
-}
+  background: url(linedpaper.png) repeat;}
+
 #wrapper {
   width: 960px;
   margin: 20px auto;
 }
 /*short cut for comments is ctrl or commend slash*/
-h1{
-	color: red; 
-}
-h4{
-	color: red;
-}
+h1{font-family: 'Luckiest Guy', cursive; color: red;font-weight: 400}
+/*from google fonts*/
+/*font awesome has the stars and icons*/
+h3{color: black; font-size: 100%}
 #summary {
 	color: blue
 }
@@ -31,3 +29,5 @@ h4{
 .test{
 	color: green; font-style: italic;
 }
+.bulls1 {color:red; font-style: oblique; font-size: 50%}
+.jumbotron {background-color: white}
