@@ -1,7 +1,15 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  background: url(linedpaper.png) repeat;}
+  background: url(ufc.png) no-repeat center center fixed;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+
+}
 
 #wrapper {
   width: 960px;
@@ -16,18 +24,21 @@ h3{color: black; font-size: 100%}
 	color: blue
 }
 /*class with .*/
-.unicorn {
-	color: blue; font-style: oblique; font-family: monospace;
-}
-#experience{
-	big
-}
-#bike {
-	width: 250px; height: 200px; border: 25px solid purple; 
-}
+
 /*class can be named anything*/
-.test{
-	color: green; font-style: italic;
-}
-.bulls1 {color:red; font-style: oblique; font-size: 50%}
+.bulls1 {color:red; font-style: normal; font-size: 100%}
 .jumbotron {background-color: white}
+
+.navbar-inverse {
+    background-color: black;
+    border-color: red;
+}
+ .navbar-brand {
+    color: $colDefault;
+    &:hover, &:focus { 
+      color: $colHighlight; }} 
+        .navbar-text {
+    color: $colDefault; }
+ .weight {color:#fff; width: 146px; border-radius: 6px 6px 0 0; text-transform: uppercase; background: #333}
+ table td {border-top: none !important;}
+ 
